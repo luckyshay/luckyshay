@@ -96,7 +96,7 @@ nav {
   height: 70vh;
 
   background:
-    url("images/hero.jpg")
+    url("hero.jpg")
     center / cover;
 
   filter: grayscale(20%);
