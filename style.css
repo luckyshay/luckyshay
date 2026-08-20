@@ -72,7 +72,6 @@ nav {
   display: flex;
   align-items: flex-end;
   padding-bottom: 70px;
-  object-position: center top;
 }
 
 .hero h1 {
@@ -96,9 +95,10 @@ nav {
 .hero-image {
   height: 70vh;
 
-  background:
-    url("hero.jpg")
-    center / cover;
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
 
   filter: grayscale(20%);
 }
