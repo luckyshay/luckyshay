@@ -95,7 +95,7 @@ nav {
 .hero-image {
   height: 70vh;
 
-  background-image: url("hero.jpeg");
+  background-image: url("hero.jpg");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -140,7 +140,7 @@ h2 {
   aspect-ratio: 1;
 
   background:
-    url("cover.jpeg")
+    url("cover.jpg")
     center / cover;
 }
 
